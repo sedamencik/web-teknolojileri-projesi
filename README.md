@@ -29,6 +29,6 @@ Memleketim olan Kütahya'nın Simav ilçesinin kısaca tarihi geçmişinin, kül
 Kullanıcı girişinin istenmesi, onaylanmadığı zaman Oturum Aç sayfasına geri dönmesi
 
 ---
-'''
+
 Seda Mencik - G201210083
-'''
+
