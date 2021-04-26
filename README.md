@@ -4,7 +4,7 @@
 
 
 - #### Kendimi ve yaşadığım şehri tanıtan kişisel bir web sitesi geliştirmek.
-
+---
 
 ## İçerik:
 
@@ -27,3 +27,8 @@ Memleketim olan Kütahya'nın Simav ilçesinin kısaca tarihi geçmişinin, kül
 
 - #### Oturum Aç sayfası
 Kullanıcı girişinin istenmesi, onaylanmadığı zaman Oturum Aç sayfasına geri dönmesi
+
+---
+'''
+Seda Mencik - G201210083
+'''
