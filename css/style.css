@@ -1,3 +1,8 @@
+.clear{clear: both;}
+.right{float: right;}
+.left{float: left;}
+.center{text-align: center;}
+
 .navbar-brand{
     margin-top: 20px;
     margin-bottom: 15px;
@@ -22,3 +27,98 @@ nav{
 .resimSlider{
     height: 410px !important;
 }
+body{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+article{padding: 20px;}
+
+.post{background-color:rgb(201, 235, 218); display: block; padding: 5px 10px ; margin: 15px; border: 3px inset rgb(85, 85, 85); border-radius: 20px;}
+
+.aboutphoto img{
+    width:400px;
+    height:300px;
+    margin: 5px;
+     border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+figcaption{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+footer{
+    padding: 15px ; background-color: #3F5039; text-color: white;
+  text-align: center;
+
+    
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+   
+}
+
+footer a:hover{
+   font-weight: bold;
+    
+}
+
+/* MYCİTY CSS*/
+
+.fgezi{border-radius: 1000px;
+    height: 260px;
+    margin: 20px;}
+    
+    
+.slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+}
+    
+    
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+}
+    
+.next {
+    right: 0;
+}
+    
+    
+.text {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 4px;
+    text-align: center;
+         
+    background-color: rgba(76, 175, 80, 0.6);
+       
+}
+    
+    
+    .numbertext {
+      color:#fff;
+        font-weight: bold;
+      font-size: 20px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
