@@ -25,7 +25,7 @@ nav{
     margin-top: 15px;
 }
 .resimSlider{
-    height: 410px !important;
+    height: 410px;
 }
 body{
     padding-left: 20px;
@@ -50,7 +50,7 @@ figcaption{
 
 
 footer{
-    padding: 15px ; background-color: #3F5039; text-color: white;
+    padding: 15px ; background-color: #3F5039; ;
   text-align: center;
 
     
@@ -90,7 +90,6 @@ footer a:hover{
     right: 0;
 }
     
-    
 .text {
     color: #fff;
     font-weight: bold;
@@ -121,4 +120,18 @@ footer a:hover{
       animation-name: fade;
       animation-duration: 1.5s;
     }
+    table, td, th {  
+        border: 1px solid #fff;
+        text-align: left;
+      }
+      
     
+      table {
+          margin: 50px;
+        border-collapse: collapse;
+        width: 70%;
+      }
+      
+      th, td {
+        padding: 15px;
+      }
