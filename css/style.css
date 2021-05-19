@@ -2,19 +2,32 @@
 .right{float: right;}
 .left{float: left;}
 .center{text-align: center;}
+.navbar{
+    position: fixed;
+    padding: 0 !important;
 
+
+}
+.index{
+    z-index:99999;
+}
+.navbar-nav{
+    margin-right: 0 !important;
+}
 .navbar-brand{
-    margin-top: 20px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     margin-left: 20px;
-    margin-right: 10px;
+    margin-right: 170px;
     padding: 0;
 }
 nav{
+    background-color: #fff;
     margin-top: -15px;
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 2px;
+    height: 110px;
 }
 .nav-item{
     margin-left: 40px !important;
@@ -24,17 +37,22 @@ nav{
     color: #000 !important;
     margin-top: 15px;
 }
+
 .resimSlider{
     height: 410px;
+    margin-top: 15px;
 }
-body{
+
+article{
+    padding-top: 65px !important;
     padding-left: 20px;
     padding-right: 20px;
 }
-article{padding: 20px;}
 
 .post{background-color:rgb(201, 235, 218); display: block; padding: 5px 10px ; margin: 15px; border: 3px inset rgb(85, 85, 85); border-radius: 20px;}
-
+.nav-border{
+    border: 3px inset rgb(172, 162, 157); border-radius: 20px;
+}
 .aboutphoto img{
     width:400px;
     height:300px;
@@ -50,20 +68,16 @@ figcaption{
 
 
 footer{
-    padding: 15px ; background-color: #3F5039; ;
+  background-color: #3F5039; ;
   text-align: center;
-
-    
 }
 footer a{
     text-decoration: none;
-    color: #fff;
-   
+    color: #fff;   
 }
 
 footer a:hover{
-   font-weight: bold;
-    
+   font-weight: bold;   
 }
 
 /* MYCİTY CSS*/
