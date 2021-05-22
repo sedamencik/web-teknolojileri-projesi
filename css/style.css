@@ -126,7 +126,7 @@ footer a:hover{
       top: 0;
     }
     
-   
+
     .fade {
       -webkit-animation-name: fade;
       -webkit-animation-duration: 1.5s;
@@ -149,3 +149,93 @@ footer a:hover{
       th, td {
         padding: 15px;
       }
+
+
+
+
+/* İlgi Alanlarım */
+.search{
+    background: #fff;
+    justify-content: center;
+    min-height: 10px;
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+input[type="text"]{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+input[type="button"]{
+    padding: 0.6rem 2rem;
+    margin-left: 10px;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.display{
+    position: relative;
+    top: 10vh;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto 5%;
+    z-index: -1;
+}
+.movie{
+    min-height: 10vh;
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}
+.poster{
+    display: flex;
+    justify-content: center;
+    min-width: 10vh;
+    margin-bottom: 10px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 1.5rem;
+}
+.imgposter{
+    object-fit: cover;
+    object-position: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.nextposter, .prevposter{
+    position: absolute;    
+
+    display: flex;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    padding: 0.8rem;
+    width: 90px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nextposter{
+    bottom: 0;
+    right: 0;
+}
+.prevposter{
+    bottom: 0;
+    left: 0;
+}
+.visible{
+    opacity: 1;
+}
