@@ -35,7 +35,7 @@ async function getmovie(value, pagenr) {
 
         let description = document.createElement("div");
         description.classList.add("description");
-        description.innerHTML = `Adı: : ${item.Title}<br><br>Yılı : ${item.Year}<br><br> <a href=https://www.imdb.com/title/${item.imdbID}> IMDB : https://www.imdb.com/title/${item.imdbID}</a>`;
+        description.innerHTML = `Adı: : ${item.Title}<br><br>Yılı : ${item.Year}<br><br> <a href= https://www.imdb.com/title/${item.imdbID}> IMDB : https://www.imdb.com/title/${item.imdbID}</a>`;
 
         moviediv.appendChild(description);
 
