@@ -40,7 +40,5 @@ async function getmovie(value,pagenr) {
         moviediv.appendChild(description);
 
         document.querySelector(".display").appendChild(moviediv);
-
     });
-    
 }

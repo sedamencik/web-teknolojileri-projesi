@@ -14,14 +14,14 @@ if(isset($_POST['login'])){
             echo "$kullaniciAdi";
         }
         else{
-            header("<Location: ../oturumac.html");
+            header("<Location: ./oturumac.html");
         }
     }
     else{
-        header("Location:../oturumac.html");
+        header("Location:./oturumac.html");
     }
 }
 else {
-    header("Location:../oturumac.html");
+    header("Location:./oturumac.html");
 }
 ?>
