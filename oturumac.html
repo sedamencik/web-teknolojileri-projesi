@@ -94,6 +94,29 @@
         integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
         crossorigin="anonymous"></script>
 
+    <script>
+        function loginDenetle(){
+            var kulAd="g201210083";
+            var sifre="12345";
+            var KullaniciAdi=document.getElementById("kullaniciAdi").value;
+            var Parola=document.getElementById("parola").value;
+            var Hata=document.getElementById("hata");
+        
+            if(KullaniciAdi=="" || Parola==""){
+                Hata.style.visibility="visible";
+                Hata.innerHTML="Kullanıcı adı ya da Parola boş bırakılamaz.";
+                return false;
+            }
+            else if((KullaniciAdi!="" && KullaniciAdi!=kulAd) || (Parola!="" && Parola!=sifre)){
+                Hata.style.visibility="visible";
+                Hata.innerHTML="Kullanıcı adı ya da Parola yanlış.";
+                return false;
+            }
+            else{
+                return true;
+            }
+        }
+    </script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
